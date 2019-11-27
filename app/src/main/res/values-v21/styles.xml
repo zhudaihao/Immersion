@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--5.0和5.0以上 设置沉浸式-->
+        <!--&lt;!&ndash;沉浸式主题设置  先设置NoActionBar，再设置下面三个item&ndash;&gt;-->
+        <!--&lt;!&ndash;状态栏透明设置 必须4.4(19)以上的版本才可以设置  再res下新建个values-v19文件夹兼容19&ndash;&gt;-->
+        <!--<item name="android:windowTranslucentStatus">false</item>-->
+        <!--&lt;!&ndash;虚拟按钮透明设置&ndash;&gt;-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        <!--&lt;!&ndash;5.0以上设置状态栏颜色 但是必须是windTranslucentStatus为false&ndash;&gt;-->
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+
+
+    </style>
+</resources>

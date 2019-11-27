@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <!--actionBar颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--控件默认选中的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--&lt;!&ndash; 设置沉浸式&ndash;&gt;-->
+        <!--&lt;!&ndash;沉浸式主题设置  先设置NoActionBar，再设置下面三个item&ndash;&gt;-->
+        <!--&lt;!&ndash;状态栏透明设置 必须4.4(19)以上的版本才可以设置  再res下新建个values-v19文件夹兼容19&ndash;&gt;-->
+        <!--<item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>-->
+        <!--&lt;!&ndash;虚拟按钮透明设置&ndash;&gt;-->
+        <!--<item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>-->
+        <!--&lt;!&ndash;5.0以上设置状态栏颜色 但是必须是windTranslucentStatus为false&ndash;&gt;-->
+        <!--<item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>-->
+
+
+    </style>
+
+
+    <!--NavigationView的样式-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
